@@ -4,3 +4,49 @@ updates:
   directory: "/"
   schedule:
     interval: daily
+
+
+  - package-ecosystem: maven
+    directory: /bundles/org.eclipse.equinox.security.linux
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /bundles/org.eclipse.equinox.security.macosx
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /bundles/org.eclipse.equinox.security.win32.x86_64
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /bundles/org.eclipse.equinox.security
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /bundles/org.eclipse.osgi.tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /bundles/org.eclipse.osgi
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /features/org.eclipse.equinox.executable.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /launcher-binary-parent
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /
+    schedule:
+      interval: daily
